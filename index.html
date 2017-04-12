@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Tic Tac Toe </title>
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="app.js"></script
+</head>
+<body id="boardReset">
+  <div class="container-fluid">
+    <h1>Tic Tac Toe </h1>
+    <h3 id="message"> Good luck!</h3>
+    <br><br>
+  <TABLE class="center text-center">
+  <TR>
+    <TD  id="1" onclick="playerTurn(this.id)">
+    </TD>
+    <TD id = "2"  onclick="playerTurn(this.id)">
+    </TD>
+    <TD id = "3"  onclick="playerTurn(this.id)">
+    </TD>
+  </TR>
+  <TR>
+    <TD id = "4"  onclick="playerTurn(this.id)">
+    </TD>
+    <TD id = "5"  onclick="playerTurn(this.id)">
+    </TD>
+    <TD id = "6"   onclick="playerTurn(this.id)">
+    </TD>
+  </TR>
+  <TR>
+    <TD id = "7"  onclick="playerTurn(this.id)">
+    </TD>
+    <TD id = "8"  onclick="playerTurn(this.id)">
+    </TD>
+    <TD id = "9"  onclick="playerTurn(this.id)">
+    </TD>
+    </TR>
+  </TABLE>
+  <div class="row text-center">
+    <br>
+    <button id="Start Game" class="button btn-primary" onclick="startGame()">Reset Game</button>
+ </div>
+    <div id="about" class="text-center">
+      By <a href="https://www.freecodecamp.com/jonathanwmaddison">Jonathan Maddison</a>
+    </div>
+</div>
+</body>

@@ -1,0 +1,47 @@
+
+body{
+  background-color: gold;
+}
+h3{
+  font-family: 'Permanent Marker', cursive;
+    color: white;
+  text-align: center;
+}
+h1{
+  font-family: 'Permanent Marker', cursive;
+  color: grey;
+  text-align: center;
+  margin-top: 3vw;
+}
+td{
+  height: 8vw;
+  width: 8vw;
+}
+tr:nth-of-type(1),tr:nth-of-type(2) {
+    border-bottom: 5px black solid;
+}
+tr:nth-of-type(1) td:nth-of-type(1), td:nth-of-type(1)  {
+  border-right: 5px black solid;
+}
+tr:nth-of-type(1) td:nth-of-type(1), td:nth-of-type(2)  {
+  border-right: 5px black solid;
+}
+
+.pTest {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 4vw;
+  align: center;
+   -webkit-animation: fadi .5s 1;
+}
+@-webkit-keyframes fadi {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+/* animation concept taken from:  http://jsfiddle.net/TPsb7/2/  & http://stackoverflow.com/questions/10309689/how-to-add-fade-out-effect-in-div-of-text-in-html5*/
+#about{
+  margin-top: 2vw
+}
+.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
